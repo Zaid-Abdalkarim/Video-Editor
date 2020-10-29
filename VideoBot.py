@@ -78,4 +78,4 @@ with contextlib.closing(wave.open(fname, 'r')) as f: # opens the file in read on
                     print("Duration: "+str(duration))
                     allStartTimes.append(startData/float(rate))
     videoFiles()
-#IT FUCKING WORKS IM GOING TO GO DIE NOW
+#IT WORKS YAY

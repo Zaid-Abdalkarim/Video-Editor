@@ -10,8 +10,8 @@ allStartTimes = [] ## all the times when the beat happens, we dont need the end 
 
 
 def videoFiles():
-    videoInput = input("Where is the top tier dogshit video: ")
-    outputTXT = input("Where do you want the top tier dogshit to be (just give the folder): ")
+    videoInput = input("Where is the top tier video: ")
+    outputTXT = input("Where do you want the top tier video to be (just give the folder): ")
     outputs = []
     i = 0
     while(i < len(allStartTimes) + 1): # the added one is because we cut according to the first start and thats a non zero number
